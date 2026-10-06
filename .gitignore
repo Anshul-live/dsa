@@ -1,0 +1,6 @@
+build/
+a.out
+*.dSYM/
+.DS_Store
+# leetgo's question cache when run with a local config dir
+.leetgo/

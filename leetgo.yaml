@@ -1,0 +1,29 @@
+# leetgo project config (https://github.com/j178/leetgo). Run it through `lc`
+# (dotfiles bin/lc): that cds here and signs in with the cookies kept in rbw.
+author: Anshul Kumar
+language: en
+code:
+  lang: cpp
+  # leetcode/0932.beautiful-array/{solution.cpp,question.md,testcases.txt}
+  # (cp-fetch adds plan.md + sketch.excalidraw.md next to them)
+  filename_template: '{{ .Id | padWithZero 4 }}{{ if .SlugIsMeaningful }}.{{ .Slug }}{{ end }}'
+  separate_description_file: true
+  modifiers:
+    - name: removeUselessComments
+  cpp:
+    out_dir: leetcode
+    cxx: clang++
+    cxxflags: -O2 -std=c++20
+leetcode:
+  site: https://leetcode.com
+  credentials:
+    # LEETCODE_SESSION / LEETCODE_CSRFTOKEN env vars, set by `lc` from rbw
+    from:
+      - cookies
+contest:
+  out_dir: contest
+  filename_template: '{{ .ContestShortSlug }}/{{ .Id }}{{ if .SlugIsMeaningful }}.{{ .Slug }}{{ end }}'
+  open_in_browser: false
+editor:
+  # nvim's CP mode opens the files itself
+  use: none
