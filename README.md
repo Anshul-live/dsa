@@ -3,12 +3,13 @@
 Competitive programming solutions in C++. Every problem folder has the plan
 (approach, complexity, edge cases, a sketch) written before the code.
 
-**5 solved** · Medium 5 · LeetCode 5 · 5 in progress
+**6 solved** · Medium 6 · LeetCode 6 · 5 in progress
 
 | | Problem | Judge | Difficulty | Tags | Solved |
 |---|---|---|---|---|---|
 | ✅ | [851. Loud and Rich](leetcode/0851.loud-and-rich/plan.md) | LeetCode | Medium | array, depth-first-search, graph, topological-sort | 2026-10-10 |
 | ✅ | [861. Score After Flipping Matrix](leetcode/0861.score-after-flipping-matrix/plan.md) | LeetCode | Medium | array, greedy, bit-manipulation, matrix | 2026-10-10 |
+| ✅ | [874. Walking Robot Simulation](leetcode/0874.walking-robot-simulation/plan.md) | LeetCode | Medium | array, hash-table, simulation | 2026-10-10 |
 | ✅ | [849. Maximize Distance to Closest Person](leetcode/0849.maximize-distance-to-closest-person/plan.md) | LeetCode | Medium | array | 2026-10-09 |
 | ✅ | [807. Max Increase to Keep City Skyline](leetcode/0807.max-increase-to-keep-city-skyline/plan.md) | LeetCode | Medium | array, greedy, matrix | 2026-10-08 |
 | ✅ | [845. Longest Mountain in Array](leetcode/0845.longest-mountain-in-array/plan.md) | LeetCode | Medium | array, two-pointers, dynamic-programming, enumerat | 2026-10-08 |
